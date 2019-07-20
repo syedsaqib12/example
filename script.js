@@ -1,4 +1,4 @@
-function names() {
+/* function names() {
 let intelligenceLevels = [
 
 
@@ -16,9 +16,6 @@ let intelligenceLevels = [
     "you are very boored"
 
 ]
-
-
-
 
 
 
@@ -180,3 +177,42 @@ if (name == false) {
 }
 
 }
+
+Make Guess the Number game 
+
+
+local scoping
+ 
+
+{ block 
+    let name = "saqb";
+    console.log(name);
+
+ }
+
+
+
+
+
+
+function names() {
+    let intelligenceLevels = [
+    
+    
+        "you are very awesome",
+        "you are very intelligent",
+        "you are very great",
+        "you are very sweet",
+        "you are very dumb",
+        "you are very learner",
+        "you are very creative",
+        "you are very handsome",
+        "you are very pro-active",
+        "you are very confident",
+        "you are very good developer",
+        "you are very boored"
+    
+    ]
+
+    document.getElementById("input").innerHTML = Math.random();
+    }
